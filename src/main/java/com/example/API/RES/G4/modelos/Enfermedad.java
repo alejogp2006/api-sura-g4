@@ -10,7 +10,7 @@ public class Enfermedad {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    private String nombre;
+    private Long nombre;
     private String sintomas;
     private String clasificacion;
     private String gradp;
